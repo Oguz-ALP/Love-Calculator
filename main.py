@@ -20,10 +20,10 @@ LOVE = (L + O + V + E2)
 result = str(TRUE) + str(LOVE)
 
 if TRUE >= 7 and TRUE < 10:
-  print("Your score is " + result + '% I think she might be the one dude')
+  print(f"Your score is {result}% I think she might be the one dude")
 elif TRUE >= 4 and TRUE < 7:
-  print("Your score is " + result + "% lets slow things down a little bit")
+  print(f"Your score is {result}% lets slow things down a little bit")
 elif TRUE >= 0 and TRUE < 4:
-  print("Your score is " + result + "% she better have the best boo... I mean eyes")
+  print(f"Your score is {result}% she better have the best boo... I mean eyes")
 else:
-  print("Your score is " + result + "% Where is my wedding invitation")
+  print(f"Your score is {result}% Where is my wedding invitation")
